@@ -23,3 +23,4 @@ done
 cd ..
 
 sed -i 's/TemperatureF/NA/g' Hottest_August_Days_1973-2016.txt
+sed -i 1'i\Year\tDate\tTemperature(F)' Hottest_August_Days_1973-2016.txt
