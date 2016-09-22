@@ -12,9 +12,11 @@ Write a script that:
 
 # need to make sure the "data" folder is at the same directory as all the scripts
 
-1) Gets the high temperature for each day in August for each year (again, we've done this, so look back at the previous scripts). 
-Script hot_days.sh will do the job, and resultant file is Hottest_August_Days_1973-2016.txt
-2) For each year gets the hottest temperature in August, creating a file with year and the highest temperature. This should probably go into a file for each year. This cannot go in /ufrc/zoo6927/share/PS1.3/data/ as you cannot write there, they should be in your own directory.
-Script hottest_day_year.sh will do the job, and resultant file is Temperature_Hottest_year.txt.
-3) Prints the 5 years with the hottest temperatures and the 5 years with the lowest temperatures. 
-Script HLowest_5Y_TMP.sh will do the job, and resultant file is "5_year_hottest_lowest_temperature.txt".
+#1) Gets the high temperature for each day in August for each year (again, we've done this, so look back at the previous scripts). 
+##Script hot_days.sh will do the job, and resultant file is Hottest_August_Days_1973-2016.txt
+
+#2) For each year gets the hottest temperature in August, creating a file with year and the highest temperature. This should probably go into a file for each year. This cannot go in /ufrc/zoo6927/share/PS1.3/data/ as you cannot write there, they should be in your own directory.
+##Script hottest_day_year.sh will do the job, and resultant file is Temperature_Hottest_year.txt.
+
+#3) Prints the 5 years with the hottest temperatures and the 5 years with the lowest temperatures. 
+##Script HLowest_5Y_TMP.sh will do the job, and resultant file is "5_year_hottest_lowest_temperature.txt".
