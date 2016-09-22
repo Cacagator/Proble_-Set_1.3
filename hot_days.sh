@@ -16,11 +16,11 @@ do
 		#	do
 		#	sed 's/'$HT'/NA/g
 		#fi
-		echo -e "$year\t$day\t$HT" >>../Hottest_August_Days_1973-2016.txt
+		echo -e "$year\t$day\t$HT" >>../Hottest_August_Days_1973-2016.txt #output table
 	done
 done
 
 cd ..
 
-sed -i 's/TemperatureF/NA/g' Hottest_August_Days_1973-2016.txt
-sed -i 1'i\Year\tDate\tTemperature(F)' Hottest_August_Days_1973-2016.txt
+sed -i 's/TemperatureF/NA/g' Hottest_August_Days_1973-2016.txt #smoothing the missing value
+sed -i 1'i\Year\tDate\tTemperature(F)' Hottest_August_Days_1973-2016.txt #adding header
